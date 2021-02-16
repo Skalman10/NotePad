@@ -30,7 +30,7 @@
               <component id="8d523" class="javax.swing.JMenuItem" binding="MNew">
                 <constraints/>
                 <properties>
-                  <text value="Open"/>
+                  <text value="Clear"/>
                 </properties>
               </component>
               <component id="5c401" class="javax.swing.JMenuItem" binding="MOpen">

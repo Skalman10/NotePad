@@ -1,6 +1,17 @@
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class NotePad {
+    public NotePad() {
+        MNew.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                textArea1.setText("");
+            }
+        });
+    }
+
     public static void main(String[] args) {
         JFrame frame = new JFrame("NotePad");
         frame.setContentPane(new NotePad().NotePanel);
